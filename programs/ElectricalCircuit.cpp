@@ -16,6 +16,7 @@ int main(){
 
     for(int i = 0; i < 30; i++){
         try{
+            std::cout << "[" << i + 1 << "]" << " - ";
             EC.WorkCycle(VCC.GenerateVoltage());
         }catch(VoltageSurgeException& e){
             std::cout << e.what() << std::endl;

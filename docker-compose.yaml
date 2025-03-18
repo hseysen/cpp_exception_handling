@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  cw-env:
+    build: .
+    container_name: classwork
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    restart: always
+    stdin_open: true
+    tty: true
+    command: ["/bin/bash"]

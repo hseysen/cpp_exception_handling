@@ -11,4 +11,5 @@ I've made this repository with a development container using Docker-Compose. If 
 6. Once you enable "Dev Containers" extension, you should be able to attach to the container.
 
 And there you go - you have your environment that is completely isolated from your operating system. On the left side, open the menu you see down below, and click the run icon. If all done correctly, your application should build and you should see its output in the output terminal.
+
 ![image](https://github.com/user-attachments/assets/d18de434-48a2-4a61-8843-ac73c0a7f7e8)
